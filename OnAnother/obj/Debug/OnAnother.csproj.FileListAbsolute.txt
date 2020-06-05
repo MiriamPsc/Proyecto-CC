@@ -1,0 +1,7 @@
+C:\Users\miria\source\repos\OnAnother\OnAnother\bin\Debug\OnAnother.exe.config
+C:\Users\miria\source\repos\OnAnother\OnAnother\bin\Debug\OnAnother.exe
+C:\Users\miria\source\repos\OnAnother\OnAnother\bin\Debug\OnAnother.pdb
+C:\Users\miria\source\repos\OnAnother\OnAnother\obj\Debug\OnAnother.csprojAssemblyReference.cache
+C:\Users\miria\source\repos\OnAnother\OnAnother\obj\Debug\OnAnother.csproj.CoreCompileInputs.cache
+C:\Users\miria\source\repos\OnAnother\OnAnother\obj\Debug\OnAnother.exe
+C:\Users\miria\source\repos\OnAnother\OnAnother\obj\Debug\OnAnother.pdb
