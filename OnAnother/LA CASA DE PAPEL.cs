@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
-
 
 namespace OnAnother
 {
@@ -18,6 +16,7 @@ namespace OnAnother
             Console.ForegroundColor = ConsoleColor.White;
             PrimeraParte.MensajeInicial();
             Console.ReadKey();
+            Environment.Exit(0);
         }
 
     }

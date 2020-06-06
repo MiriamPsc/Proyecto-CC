@@ -10,14 +10,15 @@ namespace OnAnother
 {
     class TerceraParte : SegundaParte 
     {
+        public static string clave3;
+
         public static void Respuesta3()
         {
             if (clave2 == "LA RESISTENCIA")
             {
-                respuesta = @"C:\Users\miria\Desktop\LA CASA DE PAPEL\2.txt";
-                archivo3 = File.ReadAllText(respuesta);
                 Console.WriteLine(archivo3);
                 Console.WriteLine();
+                Pregunta4();
 
             }
 
@@ -28,6 +29,7 @@ namespace OnAnother
                 Console.WriteLine("O tal vez no estas escribiendo en mayusculas");
                 Console.WriteLine("¿QUIENES SOMOS?:");
                 clave2 = (Console.ReadLine());
+                Respuesta3();
 
                 if (clave1 != "LA RESISTENCIA")
                 {
@@ -35,15 +37,16 @@ namespace OnAnother
                     Console.WriteLine("¿Ya la tienes?");
                     Console.WriteLine("¿QUIENES SOMOS?:");
                     clave2 = (Console.ReadLine());
+                    Respuesta3();
 
                     if (clave1 != "LA RESISTENCIA")
                     {
 
                         Console.WriteLine("Creo que te pudiste dar cuenta de que la clave no va en el recuadro de abajo.");
-                        Console.WriteLine("¿Leíste bien los textos anteriores?.");
+                        Console.WriteLine("¿Leíste bien los textos anteriores?");
                         Console.WriteLine("¿QUIENES SOMOS?:");
                         clave2 = (Console.ReadLine());
-
+                        Respuesta3();
 
                     }
 
@@ -52,7 +55,16 @@ namespace OnAnother
 
             }
         }
-        
+
+        public static void Pregunta4()
+        {
+            Console.WriteLine("Ahora, para continuar con la siguiente pregunta necesitas tener a la mano la clave que te servirá para llegar a la siguiente prueba.");
+            Console.WriteLine();
+            clave3 = (Console.ReadLine());
+            CuartaParte.Respuesta4();
+        }
+
+
 
     }
 }
