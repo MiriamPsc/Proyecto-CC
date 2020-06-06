@@ -14,11 +14,11 @@ namespace OnAnother
         public static void MensajeInicial()
         {
 
-            dibujo = @"C:\Users\miria\Desktop\LA CASA DE PAPEL\NOTAS.txt";
+            dibujo = @"C:\Users\miria\source\repos\OnAnother\LA CASA DE PAPEL\NOTAS.txt";
             archivo = File.ReadAllText(dibujo);
             Console.WriteLine(archivo);
 
-            titulo = @"C:\Users\miria\Desktop\LA CASA DE PAPEL\INICIO.txt";
+            titulo = @"C:\Users\miria\source\repos\OnAnother\LA CASA DE PAPEL\INICIO.txt";
             archivo2 = File.ReadAllText(titulo);
             Console.WriteLine(archivo2);
             Resp1();

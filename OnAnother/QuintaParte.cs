@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace OnAnother    
 {
-    class QuintaParte : CuartaParte
+    class QuintaParte : CuartaParte , IColores, IMensajes 
+   
     {
         public static void Respuesta5()
         {
@@ -35,6 +36,17 @@ namespace OnAnother
             Console.WriteLine("");
             Console.WriteLine("El profesor.");
             
+        }
+        string IMensajes.Mensaje()
+        {
+            string Fin;
+            Fin = ("SE ACABÓ");
+            return Fin;
+        }
+
+        void IColores.Color()
+        {
+            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }

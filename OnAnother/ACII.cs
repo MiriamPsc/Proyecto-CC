@@ -12,7 +12,7 @@ namespace OnAnother
         public static void Imagen()
         {
             string dibujo;
-            dibujo = @"C:\Users\miria\Desktop\LA CASA DE PAPEL\mask.txt";
+            dibujo = @"C:\Users\miria\source\repos\OnAnother\LA CASA DE PAPEL\mask.txt";
             string archivo = File.ReadAllText(dibujo);
             Console.WriteLine(archivo);            
         }
@@ -20,7 +20,7 @@ namespace OnAnother
         public static void Title()
         {
             string titulo;
-            titulo = @"C:\Users\miria\Desktop\LA CASA DE PAPEL\tit.txt";
+            titulo = @"C:\Users\miria\source\repos\OnAnother\LA CASA DE PAPEL\tit.txt";
             string archivo2 = File.ReadAllText(titulo);
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(archivo2);

@@ -11,10 +11,15 @@ namespace OnAnother
     {
         static void Main(string[] args)
         {
+
+            IColores M = new QuintaParte();
+            IMensajes N = new QuintaParte();
+
             ACII.Imagen();
             ACII.Title();
-            Console.ForegroundColor = ConsoleColor.White;
+            M.Color();
             PrimeraParte.MensajeInicial();
+            Console.WriteLine(N.Mensaje());
             Console.ReadKey();
             Environment.Exit(0);
         }
