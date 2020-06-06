@@ -14,6 +14,9 @@ namespace OnAnother
         static void Main(string[] args)
         {
             ACII.Imagen();
+            ACII.Title();
+            Console.ForegroundColor = ConsoleColor.White;
+            PrimeraParte.MensajeInicial();
             Console.ReadKey();
         }
 

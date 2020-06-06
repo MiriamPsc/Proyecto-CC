@@ -7,16 +7,22 @@ using System.IO;
 
 namespace OnAnother
 {
-    class ACII : Juego
+    class ACII 
     {
         public static void Imagen()
         {
-            string dibujo, titulo;
-            dibujo = @"C:\Users\miria\Downloads\mask.txt";
+            string dibujo;
+            dibujo = @"C:\Users\miria\Desktop\LA CASA DE PAPEL\mask.txt";
             string archivo = File.ReadAllText(dibujo);
-            Console.WriteLine(archivo);
-            titulo = @"C:\Users\miria\Downloads\tit.txt";
+            Console.WriteLine(archivo);            
+        }
+
+        public static void Title()
+        {
+            string titulo;
+            titulo = @"C:\Users\miria\Desktop\LA CASA DE PAPEL\tit.txt";
             string archivo2 = File.ReadAllText(titulo);
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(archivo2);
         }
 
